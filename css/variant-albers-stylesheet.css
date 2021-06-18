@@ -1,0 +1,231 @@
+@charset "UTF-8";
+  #indexbody {
+    background-color: #E0D6C6;
+    background: linear-gradient(rgba(224, 214, 198, 0.85), rgba(224, 214, 198, 0.15)), url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+main#canvas {
+  width: 39.93055555555556vw;
+  height: 33.47222222222222vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #895E3E;
+  position: relative;
+}
+#canvas:hover {
+  background: radial-gradient(#9337D6, #B84F7F, #D66237), url('');
+  opacity: 1;
+}
+section {
+  float: left;
+}
+article {
+  float: left;
+}
+article#brown-rectangle-small-one {
+  width: 3.701846030583333vw;
+  height: 7.119306270291666vw;
+  background-color: #8D4E2F;
+  margin-left: 8.4834834835vw;
+  margin-bottom: 10.27vw;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  float: left;
+  display: inline-block;
+}
+#brown-rectangle-small-one:hover {
+  background: linear-gradient(to top, #AB37D6, #4581C7, #5660DE, #37B7D6, #9337D6, #B84F7F, #D66237, #D6B737, #ABD637), url('');
+  border-image-source: linear-gradient(to left, #B23D1A, #D66237);
+  border-image-slice: 1;
+  border-width: thick;
+  border-style: solid;
+  opacity: 0.96;
+}
+article#brown-rectangle-small-two {
+  width: 3.701846030583333vw;
+  height: 7.119306270291666vw;
+  background-color: #8D4E2F;
+  margin-right: 8.4834834835vw;
+  margin-bottom: 10.27vw;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  float: left;
+  display: inline-block;
+}
+#brown-rectangle-small-two:hover {
+  background: linear-gradient(to bottom, #AB37D6, #4581C7, #5660DE, #37B7D6, #9337D6, #B84F7F, #D66237, #D6B737, #ABD637), url('');
+  border-image-source: linear-gradient(to right, #B23D1A, #D66237);
+  border-image-slice: 1;
+  border-width: thick;
+  border-style: solid;
+  opacity: 0.96;
+}
+#pink-orange-gradient-rectangle-bar {
+  width: 39.93055555555556vw;
+  height: 5.57870370370139vw;
+  margin-top: 3.888888888888889vw;
+  background-color: #B23D1A;
+  opacity: 0.265;
+  float: left;
+  z-index: 2;
+  position: relative;
+}
+#pink-orange-gradient-rectangle-bar:hover {
+  background: linear-gradient(#B23D1A, #D66237), url('');
+  opacity: 0.8;
+  z-index: 1000;
+  position: relative;
+}
+#orange-rectangle-large {
+  width: 34.420138888888886vw;
+  height: 21.154444444444444vw;
+  background-color: #E57835;
+  margin-left: 2.2222222222222223vw;
+  margin-top: -2.1180555555555554vw;
+  float: left;
+  z-index: 1;
+}
+#orange-rectangle-large::before {
+  width: 34.420138888888886vw;
+  height: 21.154444444444444vw;
+  background-color: #E57835;
+  margin-left: 2.2222222222222223vw;
+  margin-top: -2.1180555555555554vw;
+  float: left;
+  z-index: 1;
+}
+#orange-rectangle-large:hover {
+  width: 34.420138888888886vw;
+  height: 21.154444444444444vw;
+  background: repeating-linear-gradient(rgba(178, 61, 26, 0.5), rgba(178, 61, 26, 0.5), rgba(214, 73, 55, 0.5), rgba(214, 104, 55, 0.5), rgba(199, 134, 69, 0.5),
+  rgba(222, 154, 86, 0.5), rgba(214, 122, 55, 0.5), rgba(235, 158, 81, 0.5), transparent),
+  radial-gradient(circle at center, rgba(178, 61, 26, 0.5), rgba(178, 61, 26, 0.5), rgba(214, 73, 55, 0.5), rgba(214, 104, 55, 0.5), rgba(199, 134, 69, 0.5),
+  rgba(222, 154, 86, 0.5), rgba(214, 122, 55, 0.5), rgba(235, 158, 81, 0.5), transparent),
+  radial-gradient(ellipse at top, rgba(171, 55, 214, 0.5), rgba(69, 129, 199, 0.5), rgba(86, 96, 222, 0.5), rgba(55, 183, 214, 0.5), rgba(147, 55, 214, 0.5),
+  rgba(184, 79, 127, 0.5), rgba(214, 98, 55, 0.5), rgba(214, 183, 55, 0.5), rgba(171, 214, 55, 0.5), transparent),
+  radial-gradient(ellipse at bottom, rgba(214, 214, 55, 0.5), rgba(235, 244, 22, 0.5), rgba(199, 184, 69, 0.5), rgba(222, 170, 86, 0.5), rgba(58, 206, 183, 0.5),
+  rgba(55, 183, 214, 0.5), rgba(214, 128, 55, 0.5), transparent),
+  radial-gradient(closest-side, rgba(178, 61, 26, 0.5), rgba(214, 98, 55, 0.5), transparent),
+  linear-gradient(to left, rgba(60, 60, 10, 0.5), rgba(102, 103, 67, 0.5), rgba(100, 98, 82, 0.5), rgba(110, 89, 55, 0.5), rgba(121, 103, 73, 0.5),
+  rgba(157, 126, 101, 0.5), transparent),
+  linear-gradient(to right, rgba(193, 48, 48, 0.5), rgba(154, 45, 45, 0.5), rgba(221, 30, 103, 0.5), rgba(196, 59, 149, 0.5), rgba(112, 46, 168, 0.5), rgba(66, 75, 175, 0.5),
+  rgba(32, 172, 224, 0.5), rgba(44, 173, 202, 0.5), rgba(70, 175, 66, 0.5), transparent),
+  linear-gradient(to top, rgba(93, 193, 48, 0.5), rgba(72, 188, 86, 0.5), rgba(89, 209, 135, 0.5), rgba(71, 226, 190, 0.5), rgba(46, 191, 234, 0.5), rgba(245, 231, 57, 0.5),
+  rgba(248, 235, 129, 0.5), rgba(211, 252, 176, 0.5), rgba(183, 248, 127, 0.5), transparent),
+  linear-gradient(to bottom, rgba(48, 193, 87, 0.5), rgba(81, 72, 188, 0.5), rgba(145, 65, 213, 0.5), rgba(49, 231, 239, 0.5), rgba(226, 131, 71, 0.5),
+  rgba(67, 53, 6, 0.5), rgba(174, 198, 44, 0.5), rgba(38, 196, 105, 0.5), rgba(60, 46, 226, 0.5), rgba(154, 43, 108, 0.5), rgba(42, 175, 144, 0.5),
+  rgba(32, 36, 32, 0.5), rgba(208, 41, 41, 0.5), transparent);
+  margin-left: 2.2222222222222223vw;
+  margin-top: -2.1180555555555554vw;
+  float: left;
+  opacity: 0.9;
+  z-index: 1;
+}
+#gradient-left-rectangle {
+  width: 7.265470907361111vw;
+  height: 20.5vw;
+  margin-left: 6.7vw;
+  background-color: #B23D1A;
+  opacity: 0.265;
+  float: left;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+#gradient-left-rectangle:hover {
+  background: radial-gradient(circle at 100%, #AB37D6, #4581C7, #5660DE, #37B7D6, #9337D6, #B84F7F, #D66237, #D6B737, #ABD637), url('');
+  opacity: 0.89;
+}
+#gradient-middle-rectangle {
+  width: 11.9996137408vw;
+  height: 10.27vw;
+  margin-left: 13.9654709074vw;
+  background-color: #B23D1A;
+  opacity: 0.265;
+  float: left;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+#gradient-middle-rectangle:hover {
+  background: radial-gradient(circle at 100%, #AB37D6, #4581C7, #5660DE, #37B7D6, #9337D6, #B84F7F, #D66237, #D6B737, #ABD637), url('');
+  opacity: 0.89;
+}
+#gradient-right-rectangle {
+  width: 7.265470907361111vw;
+  height: 20.5vw;
+  margin-right: 6.7vw;
+  background-color: #B23D1A;
+  opacity: 0.265;
+  float: left;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+#gradient-right-rectangle:hover {
+  background: radial-gradient(circle at 100%, #AB37D6, #4581C7, #5660DE, #37B7D6, #9337D6, #B84F7F, #D66237, #D6B737, #ABD637), url('');
+  opacity: 0.89;
+}
+/*
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+    =============================
+    ======Personal Website=======
+    =============================
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    Designed by: Jonathan Hackner
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    ======For Web Design 2=======
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    :::::::::::::::::::::::::::::
+    This project is for::::::::::
+    Professor Ian Besler:::::::::
+    SMC Web Design 2 Class:::::::
+    Personal Work Website::::::::
+    Fall 2020 Semester:::::::::::
+    :::::::::::::::::::::::::::::
+    =============================
+    ======Personal Website=======
+    =============================
+  */

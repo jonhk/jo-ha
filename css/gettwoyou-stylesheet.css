@@ -1,0 +1,1210 @@
+@charset "UTF-8";
+/* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+(his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+https://mailchimp.com/email-design-guide/):
+https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+@-webkit-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+/* NOTE: Index Body Image */
+@-webkit-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: My Name Image  */
+@-webkit-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: myname-image-reflect  */
+@-webkit-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard-design-inspiration-txt-dropcap  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: blockquotefooter  */
+@-webkit-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: indexbody-image-two  */
+@-webkit-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard design inspiration txt header  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard design inspiration txt body  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: CSS Reset in HTML and Universal Selector for box-sizing from: https://css-tricks.com/box-sizing/ */
+/* NOTE: CSS Reset in Universal Selector from: Web Design 2 Presentation Lecture 3 CSS Box Model divs semantic tags; Professor Ian Besler, SMC */
+
+/* NOTE: General CSS */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:link {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:visited {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:hover {
+    color: #B99D82;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:active {
+    color: #B99D82;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  p {
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+  }
+  blockquote {
+    margin: 0;
+    border-image-source: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79));
+    border-image-slice: 1;
+    border-left-style: solid;
+    border-left-width: medium;
+    background-color: #FFD7E6;
+  }
+  blockquote p {
+    padding: 1%;
+    font-size: 18.5pt;
+  }
+  #blockquote-left {
+    top: -0.41em;
+    margin-bottom: -0.8em;
+    margin-left: -0.08em;
+    padding-right: 0.17em;
+    float: left;
+    position: relative;
+    font-family: halyard-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100pt;
+  }
+  #blockquotefooter {
+    background: linear-gradient(#F4D4F2, #EFD8E1, #FCE3ED, #FCE3ED, #F7D5E3);
+    background-size: 400% 400%;
+    -webkit-animation: blockquotefooter 9s ease-in-out infinite;
+    -moz-animation: blockquotefooter 9s ease-in-out infinite;
+    -o-animation: blockquotefooter 9s ease-in-out infinite;
+    animation: blockquotefooter 9s ease-in-out infinite;
+
+  }
+  blockquote footer p {
+    font-size: 12pt;
+  }
+  blockquote footer a {
+    font-weight: 300;
+  }
+  blockquote a {
+    color: inherit;
+  }
+  blockquote a:hover {
+    color: rgba(91, 11, 201, 0.79);
+  }
+  blockquote a:active {
+    color: #FCFCF9;
+  }
+
+  /* NOTE: Header */
+  /* NOTE: Main nav */
+  #primarynav_index {
+    background-image: linear-gradient(rgba(199, 54, 92, 0.09), rgba(91, 11, 201, 0.1));
+    }
+  #primarynav_all-pages {
+    background-color: #31237E;
+    z-index: 1000;
+  }
+  .primarynav {
+    width: 100%;
+    text-align: center;
+    color: #DBCACA;
+    font-size: 16pt;
+    text-align: center;
+    font-family: halyard-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0.65%;
+    padding-right: 2%;
+    padding-bottom: 0.65%;
+    padding-left: 2%;
+    top: 0;
+  }
+  .primarynav  li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .primarynav a {
+    color: #DBCACA;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:link {
+    color: #DBCACA;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:visited {
+    color: #DBCACA;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:hover {
+    color: #B99D82;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:active {
+    color: #F6E7D1;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav_title {
+    font-family: mighty-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24pt;
+  }
+  .primarynav_list-items {
+    font-family: halyard-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* NOTE: Content CSS */
+  /* NOTE: Index CSS */
+  /* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+  (his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+  https://mailchimp.com/email-design-guide/):
+  https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+  #indexbody {
+    background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+    background-size: 400% 400%;
+    -webkit-animation: indexbody 58s ease infinite;
+    -moz-animation: indexbody 58s ease infinite;
+    -o-animation: indexbody 58s ease infinite;
+    animation: indexbody 58s ease infinite;
+  }
+#indexbody-subpages {
+  background: linear-gradient(245deg, #E8D5CC, #FFF4EA);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody 23s ease infinite;
+  -moz-animation: indexbody 23s ease infinite;
+  -o-animation: indexbody 23s ease infinite;
+  animation: indexbody 23s ease infinite;
+}
+.indexbody-image {
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  background-image: url("../images/la-weho-cali-skyline.jpeg");
+  width: 100%;
+  height: 10em;
+  background-size: cover;
+}
+.indexbody-image-two  {
+  background-image: url("../images/la-weho-cali-skyline.jpeg");
+    background-size: 400% 400%;
+    -webkit-animation: indexbody-image-two 58s ease infinite;
+    -moz-animation: indexbody-image-two 58s ease infinite;
+    -o-animation: indexbody-image-two 58s ease infinite;
+    animation: indexbody-image-two 58s ease infinite;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.myname-image {
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  width: 100%;
+  height: 1.7em;
+}
+.myname-image-reflect {
+  background: linear-gradient(-245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  width: 100%;
+  height: 1.7em;
+}
+#mybackground-image-parallax-scroll-gradient {
+  background: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79)), url("../images/la-weho-cali-skyline.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+#mybackground-paragraph {
+  margin: 0;
+  border-image-source: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79));
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 0.5em;
+  background-color: #FFD7E6;
+}
+#mybackground-paragraph p {
+  padding: 1%;
+  font-size: 18.5pt;
+}
+#mybackground-paragraph a {
+  color: inherit;
+}
+#mybackground-paragraph a:hover {
+  color: rgba(91, 11, 201, 0.79);
+}
+#mybackground-paragraph a:active {
+  color: #FCFCF9;
+}
+#mybackground-paragraph-footer {
+  background-image: linear-gradient(rgba(199, 54, 92, 0.09), rgba(91, 11, 201, 0.1));
+}
+#mybackground-paragraph-footer p {
+  font-size: 12pt;
+}
+#mybackground-paragraph-footer a {
+  font-weight: 300;
+}
+#mybackground-paragraph-footer a {
+  color: inherit;
+}
+#mybackground-paragraph-footer a:hover {
+  color: rgba(91, 11, 201, 0.79);
+}
+#mybackground-paragraph-footer a:active {
+  color: #FCFCF9;
+}
+
+
+
+/* NOTE: Initial knoledge for image width and positioning supplemented by reference URIs: https://html.com/attributes/img-width/, https://stackoverflow.com/questions/12695726/image-goes-beyond-container-div-bounds/12695815 */
+#nondesigned-image-1 {
+  background: url("../images/ana-goidea_pulp-faction-form.png") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+#nondesigned-image-2 {
+  background: url("../images/ana-goidea_pulp-faction-lab.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+#nondesigned-image-3 {
+  background: url("../images/ana-goidea_pulp-faction-print.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+.nondesigned-video {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#designobject-image-1 {
+  background: url("../images/sowden-kettle_eu-mint_borosilicate-mug-pink.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+#designobject-image-2 {
+  background: url("../images/michael-graves_tea-kettle-design.jpeg");
+  width: 50%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-3 {
+  background: url("../images/alessi_tea-kettle-pair.jpeg");
+  width: 50%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-4 {
+  background: url("../images/ettore-sottsass_bodum-electric-water-kettle.jpeg");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-5 {
+  background: url("../images/ettore-sottsass_bodum-electric-water-kettle.jpeg");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-6 {
+  background: url("../images/ettore-sottsass_bodum-electric-water-kettle.jpeg");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-7 {
+  background: url("../images/rikuchou-ogasawara_iron-kettle-suehiro.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  min-height: 100%;
+}
+#designobject-image-8 {
+  background: url("../images/makoto-koizumi_kaico_enamel-tea-kettle.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  min-height: 100%;
+}
+#designobject-image-9 {
+  background: url("../images/hario_v60-buono-drip-kettle-matte-black.webp");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-10 {
+  background: url("../images/hario_v60-buono-drip-kettle-silver.webp");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designobject-image-11 {
+  background: url("../images/hario_v60-buono-drip-kettle-copper.webp");
+  width: 33.3333333333%;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designinspiration-image-1 {
+  background: url("../images/tina-roth-eisenberg_photo.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designinspiration-image-2 {
+  background: url("../images/friends-work-here_office-space.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 200vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#designinspiration-image-3 {
+  background: url("../images/tattlly_office-temporary-tattoo-chair.jpg") no-repeat center center fixed;
+  width: 100%;
+  height: 200vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: inline-block;
+  float: left;
+  box-shadow: 0.025px 0.025px 0.5215px grey;
+}
+#contentbillboard {
+  padding-top: 10%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+.contentbillboard-design-inspiration {
+  display:table;
+  width: 100%;
+  table-layout:fixed;
+  border-spacing:0 0;
+  background-color: #FCFCF9;
+  color: inherit;
+}
+#contentbillboard-design-inspiration-txt {
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-justify: auto;
+  hyphens: auto;
+  text-align: justify;
+  font-size: 20pt;
+  padding-top: 4.5%;
+  padding-left: 13%;
+  padding-bottom: 2%;
+  padding-right: 13%;
+  margin-bottom: 1%;
+  column-count: 1;
+  color: #000000;
+}
+.contentbillboard-mybackground {
+  font-family: source-sans-pro, monospace;
+  font-weight: 700;
+  font-style: normal;
+  display:table;
+  width: 100%;
+  table-layout:fixed;
+  border-spacing:0 0;
+  color: inherit;
+  background-color: #FFD7E6;
+}
+
+/* NOTE: Dropcap source referenced and modified from: https://www.htmlgoodies.com/html5/css/creating-drop-caps-in-html-and-css.html */
+#contentbillboard-design-inspiration-txt-dropcap {
+  top: -0.41em;
+  margin-bottom: -0.66em;
+  margin-left: -0.0179em;
+  padding-right: 0.21em;
+  float: left;
+  position: relative;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100pt;
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #af4261, #914410, #914410, #E27329, #E59C28, #914410, #09182E, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+}
+#contentbillboard-design-inspiration-txt-header {
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 110pt;
+  margin-top: -1.7641%;
+  margin-bottom: -2%;
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #af4261, #914410, #914410, #E27329, #E59C28, #914410, #09182E, #31237E, #31237E, #31237E, #31237E, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-header 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-header 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-header 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-header 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+}
+#contentbillboard-design-inspiration-txt-body {
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30pt;
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #af4261, #914410, #914410, #E27329, #E59C28, #914410, #09182E, #31237E, #31237E, #31237E, #31237E, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-body 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-body 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-body 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-body 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+}
+.nondesigned-image-caption {
+  margin-top: 1.5%;
+  text-align: center;
+  font-size: 12pt;
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #8B8479;
+}
+.contentbillboard-my-ascii {
+  width:100%;
+  height: 100%;
+  margin-left: 0 auto;
+  margin-top: 1%;
+  margin-right: 0 auto;
+  margin-bottom: 0 auto;
+  font-size: 10pt;
+  text-align: center;
+  background: linear-gradient(245deg, #D8C177, #C9D877, #A0D877, #FF7F00, #00E2FF, #00FF6C, #A700FF, #0014FF, #00FFEB, #EBFF00, #F500FF, #5800FF, #FFCE00, #58FF00, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #DBCACA;
+}
+.ascii-art {
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: source-code-pro, monospace;
+  font-weight: 900;
+  font-style: normal;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+#contentbillboard_jonhackner-header {
+  width: 100%;
+  height: auto;
+}
+#contentbillboard_h1 {
+  margin-top: 14%;
+  margin-left: 2%;
+  margin-right:  2%;
+  text-align: center;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 41pt;
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #af4261, #914410, #914410, #E27329, #E59C28, #914410, #09182E, #31237E, #31237E, #31237E, #31237E, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+}
+#contentbillboard_jonhackner-title-h1 {
+  margin-left: 2%;
+  margin-right:  2%;
+  text-align: center;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 41pt;
+  background: linear-gradient(245deg, #D8C177, #C9D877, #A0D877, #FF7F00, #00E2FF, #00FF6C, #A700FF, #0014FF, #00FFEB, #EBFF00, #F500FF, #5800FF, #FFCE00, #58FF00, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #DBCACA;
+}
+#contentbillboard_jonhackner-h2 {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right:  2%;
+  margin-bottom: 3.65%;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32pt;
+  background: linear-gradient(245deg, #D8C177, #C9D877, #A0D877, #FF7F00, #00E2FF, #00FF6C, #A700FF, #0014FF, #00FFEB, #EBFF00, #F500FF, #5800FF, #FFCE00, #58FF00, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA, #DBCACA);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #DBCACA;
+}
+#contentbillboard_h2 {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right:  2%;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32pt;
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #af4261, #914410, #914410, #E27329, #E59C28, #914410, #09182E, #31237E, #31237E, #31237E, #31237E, #000000, #000000, #000000, #000000, #000000, #000000, #000000);
+  background-size: 400% 400%;
+  -webkit-animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  -moz-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  -o-animation: contentbillboard-design-inspiration-txt-dropcap 58s  ease-in-out infinite;
+  animation: contentbillboard-design-inspiration-txt-dropcap 58s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+}
+#contentbillboard_h3 {
+  margin-top: -6%;
+  margin-left: 2%;
+  margin-right:  2%;
+  color: #000000;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
+}
+.contentbillboard_h4 {
+  margin-left: 2%;
+  margin-right:  2%;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15pt;
+}
+.contentbillboard_h4 a {
+  color: #000000;
+  list-style-type: none;
+  text-decoration: none;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.contentbillboard_h4-v1 {
+  margin-top: 2%;
+}
+.contentbillboard_h4-v2 {
+  margin-top: 1%;
+}
+.contentbillboard_h4-v3 {
+  margin-bottom: 14%;
+}
+.contentbillboard_h4-v4 {
+  color: #000000;
+}
+/* NOTE: Footer CSS */
+.footernav {
+  color: #DBCACA;
+  bottom: 0;
+  width: 100%;
+  background-color: #31237E;
+  text-align: center;
+  font-size: 12pt;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+}
+#footernav_title {
+  font-family: jubilat, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.footernav  li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footernav a {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:link {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:visited {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:hover {
+  color: #B99D82;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:active {
+  color: #F6E7D1;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+/*
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+    =============================
+    ======Personal Website=======
+    =============================
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    Designed by: Jonathan Hackner
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    ======For Web Design 2=======
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    :::::::::::::::::::::::::::::
+    This project is for::::::::::
+    Professor Ian Besler:::::::::
+    SMC Web Design 2 Class:::::::
+    Personal Work Website::::::::
+    Fall 2020 Semester:::::::::::
+    :::::::::::::::::::::::::::::
+    =============================
+    ======Personal Website=======
+    =============================
+  */

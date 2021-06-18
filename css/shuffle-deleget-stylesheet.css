@@ -1,0 +1,281 @@
+@charset "UTF-8";
+  /* NOTE: Content CSS */
+
+  /* NOTE: D for Div CSS */
+  #indexbody {
+    background-color: #E0D6C6;
+    background: linear-gradient(rgba(224, 214, 198, 0.85), rgba(224, 214, 198, 0.15)), url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  main#canvas {
+    width: 39.93055555555556vw;
+    height: 39.93055555555556vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  section {
+    float: left;
+  }
+  article {
+    float: left;
+  }
+  figure {
+    float: left;
+  }
+  article.dark-yellow {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-color: #e2db58;
+  }
+  article.dark-yellow:hover {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-dark-yellow.jpeg');
+    background-size: cover;
+  }
+  article.dark-yellow:active {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-dark-yellow.jpeg');
+    background-size: cover;
+  }
+  article.green {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-color: #4a8545;
+  }
+  article.green:hover {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-green.jpeg');
+    background-size: cover;
+  }
+  article.green:active {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-green.jpeg');
+    background-size: cover;
+  }
+  article.orange {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-color: #f56d0f;
+  }
+  article.orange:hover {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-orange.jpeg');
+    background-size: cover;
+  }
+  article.orange:active {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-orange.jpeg');
+    background-size: cover;
+  }
+  article.yellow {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-color: #e7ee0b;
+  }
+  article.yellow:hover {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-yellow.jpeg');
+    background-size: cover;
+  }
+  article.yellow:active {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-image: url('../images/color-brush-yellow.jpeg');
+    background-size: cover;
+  }
+  article.box {
+    width: 9.98263888888889vw;
+    height: 9.98263888888889vw;
+    background-color: black;
+  }
+  figure.light-orange {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-color: #fea115;
+  }
+  figure.light-orange:hover {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-light-orange.jpeg');
+    background-size: cover;
+  }
+  figure.light-orange:active {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-light-orange.jpeg');
+    background-size: cover;
+  }
+  figure.dark-purple {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-color: #2d0d25;
+  }
+  figure.dark-purple:hover {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-dark-purple.jpeg');
+    background-size: cover;
+  }
+  figure.dark-purple:active {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-dark-purple.jpeg');
+    background-size: cover;
+  }
+  figure.light-blue {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-color: #7790ec;
+  }
+  figure.light-blue:hover {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-light-blue.jpeg');
+    background-size: cover;
+  }
+  figure.light-blue:active {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-light-blue.jpeg');
+    background-size: cover;
+  }
+  figure.gray {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-color: #c6c5b6;
+  }
+  figure.gray:hover {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-gray.jpeg');
+    background-size: cover;
+  }
+  figure.gray:active {
+    width: 2.4956597222222223vw;
+    height: 2.4956597222222223vw;
+    background-image: url('../images/color-brush-gray.jpeg');
+    background-size: cover;
+  }
+
+  /* NOTE: Footer CSS */
+  .footernav {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #DBCACA;
+      font-size: 12pt;
+      text-align: center;
+      font-family: source-sans-pro, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-top: 0.65%;
+      padding-right: 2%;
+      padding-bottom: 0.65%;
+      padding-left: 2%;
+  }
+  #footernav_title {
+      font-family: tussilago, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+  }
+  /* NOTE: Footer nav index positoning at bottom from: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+  #footernav_index {
+      width: 100%;
+      background-color: #4B6E4A;
+  }
+  .footernav  li {
+      display: inline-block;
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+  .footernav a {
+      color: #DBCACA;
+      list-style-type: none;
+      text-decoration: none;
+      transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-duration: 0.23s;
+      -o-transition-duration: 0.23s;
+      transition-duration: 0.23s;
+  }
+  .footernav a:hover {
+      color: #B99D82;
+  }
+  .footernav a:active {
+      color: #F6E7D1;
+  }
+  .footernav a:visited {
+      color: inherit;
+  }
+  /*
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+  ::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+  ::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+  ::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+  :::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+  ::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+  :::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+  :::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+  :::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+      =============================
+      ======Personal Website=======
+      =============================
+      [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+      Designed by: Jonathan Hackner
+      [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      ======For Web Design 2=======
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      :::::::::::::::::::::::::::::
+      This project is for::::::::::
+      Professor Ian Besler:::::::::
+      SMC Web Design 2 Class:::::::
+      Personal Work Website::::::::
+      Fall 2020 Semester:::::::::::
+      :::::::::::::::::::::::::::::
+      =============================
+      ======Personal Website=======
+      =============================
+    */

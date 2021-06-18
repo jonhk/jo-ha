@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* NOTE: Specific Settings CSS */
+
+/* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+(his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+https://mailchimp.com/email-design-guide/):
+https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+
+/* NOTE: full */
+  @-webkit-keyframes full {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @-moz-keyframes full {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @-o-keyframes full {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @keyframes full {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+
+/* NOTE: quarter */
+  @-webkit-keyframes quarter {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @-moz-keyframes quarter {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @-o-keyframes quarter {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+  @keyframes quarter {
+      0%{background-position:0% 83%}
+      50%{background-position:100% 18%}
+      100%{background-position:0% 83%}
+  }
+
+
+/* NOTE: General CSS */
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  #indexbody {
+    background-color: #E0D6C6;
+    background: linear-gradient(rgba(224, 214, 198, 0.85), rgba(224, 214, 198, 0.15)), url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  a {
+    color: #DBCACA;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:hover {
+    color: #B99D82;
+  }
+  a:active {
+    color: #09182E;
+  }
+  section {
+    float: left;
+  }
+
+/* NOTE: Size and dimensions of art piece. */
+  main#canvas {
+    width: 39.93055555555556vw;
+    height: 39.93055555555556vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .full {
+    width: 1.1744281045763891vw;
+    height: 39.93055555555556vw;
+  }
+  .full:hover {
+    width: 1.1744281045763891vw;
+    height: 39.93055555555556vw;
+    background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+    background-size: 400% 400%;
+    -webkit-animation: full 14.5s ease infinite;
+    -moz-animation: full 14.5s ease infinite;
+    -o-animation: full 14.5s ease infinite;
+    animation: full 14.5s ease infinite;
+  }
+  .full:active {
+    width: 1.1744281045763891vw;
+    height: 39.93055555555556vw;
+    background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+    background-size: 400% 400%;
+    -webkit-animation: full 14.5s ease infinite;
+    -moz-animation: full 14.5s ease infinite;
+    -o-animation: full 14.5s ease infinite;
+    animation: full 14.5s ease infinite;
+  }
+  #quarter {
+    width: 0.29360702614444445vw;
+    height: 39.93055555555556vw;
+  }
+  #quarter:hover {
+    width: 0.29360702614444445vw;
+    height: 39.93055555555556vw;
+    background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+    background-size: 400% 400%;
+    -webkit-animation: quarter 14.5s ease infinite;
+    -moz-animation: quarter 14.5s ease infinite;
+    -o-animation: quarter 14.5s ease infinite;
+    animation: quarter 14.5s ease infinite;
+  }
+  #quarter:active {
+    width: 0.29360702614444445vw;
+    height: 39.93055555555556vw;
+    background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+    background-size: 400% 400%;
+    -webkit-animation: quarter 14.5s ease infinite;
+    -moz-animation: quarter 14.5s ease infinite;
+    -o-animation: quarter 14.5s ease infinite;
+    animation: quarter 14.5s ease infinite;
+  }
+
+/* NOTE: Colors of rectangles. */
+  .purple {
+    background-color: #9785B4;
+  }
+  .pink {
+    background-color: #D3709F;
+  }
+  .yellow {
+    background-color: #ECDC51;
+  }
+  .bright-green {
+    background-color: #44AD75;
+  }
+  .light-green {
+    background-color: #AAC34F;
+  }
+  .orange {
+    background-color: #EA8535;
+  }
+  .light-blue {
+    background-color: #9DBCD0;
+  }
+  .bright-blue {
+    background-color: #73BCC2;
+  }
+  /*
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  ::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+  ::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+  ::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+  ::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+  :::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+  ::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+  :::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  ::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+  :::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+  :::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+  :::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+      =============================
+      ======Personal Website=======
+      =============================
+      [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+      Designed by: Jonathan Hackner
+      [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      ======For Web Design 2=======
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+      :::::::::::::::::::::::::::::
+      This project is for::::::::::
+      Professor Ian Besler:::::::::
+      SMC Web Design 2 Class:::::::
+      Personal Work Website::::::::
+      Fall 2020 Semester:::::::::::
+      :::::::::::::::::::::::::::::
+      =============================
+      ======Personal Website=======
+      =============================
+    */

@@ -1,0 +1,920 @@
+@charset "UTF-8";
+/* NOTE: "universal content" */
+
+/* NOTE: settings: "distinct" */
+
+/* NOTE: settings: "distinct all" */
+
+/* NOTE: settings: "distinct image rotate all" */
+/* NOTE: Circle Animation by Flavio Copes edited from source https://flaviocopes.com/rotate-image/  */
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* NOTE: settings: "distinct gradients all" */
+/* NOTE: settings: "distinct gradients primary sub nav all all" */
+@-webkit-keyframes primary_sub-nav_all {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes primary_sub-nav_all {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes primary_sub-nav_all {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes primary_sub-nav_all {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: settings: "distinct gradients main website" */
+/* NOTE: settings: "distinct gradients index body main website" */
+/* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+(his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+https://mailchimp.com/email-design-guide/):
+https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+@-webkit-keyframes body_main-website {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes body_main-website {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes body_main-website {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes body_main-website {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: settings: "distinct gradients type work" */
+/* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+(his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+https://mailchimp.com/email-design-guide/):
+https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+@-webkit-keyframes type-work {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes type-work {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes type-work {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes type-work {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+/* NOTE: settings: common */
+/* NOTE: CSS Reset in HTML and Universal Selector for box-sizing from: https://css-tricks.com/box-sizing/ */
+/* NOTE: CSS Reset in Universal Selector from: Web Design 2 Presentation Lecture 3 CSS Box Model divs semantic tags; Professor Ian Besler, SMC */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+a {
+  color: #DBCACA;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+a:link {
+  color: #DBCACA;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+a:visited {
+  color: #DBCACA;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+a:hover {
+  color: #B99D82;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+a:active {
+  color: #09182E;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+
+/* NOTE: headers */
+
+/* NOTE: headers: "all" */
+.primary_nav_all {
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: #DBCACA;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+  top: 0;
+}
+.primary_nav_all  li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.primary_nav_all a {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.primary_nav-list-items_all {
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.primary_nav_all a:link {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.primary_nav_all a:visited {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.primary_nav_all a:hover {
+  color: #B99D82;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.primary_nav_all a:active {
+  color: #F6E7D1;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+/* NOTE: headers: "all specific" */
+#primary_nav_all-selected {
+  color: #B99D82;
+}
+/* NOTE: headers: "all index" */
+#primary_nav_all-index {
+  background-image: linear-gradient(rgba(199, 54, 92, 0.09), rgba(91, 11, 201, 0.1));
+  }
+/* NOTE: headers: "general subpages" */
+#primary_nav_all-subpages {
+  background-color: #09182E;
+}
+
+/* NOTE: headers: "dfordiv" */
+#nav_all-subpages-josefalbers-variantmm {
+  background-color: #6E4729;
+}
+#nav_all-subpages-genedavis-popsicle {
+  background-color: #7F5B98;
+}
+#nav_all-subpages-mathewdeleget-shuffleforlecorbusier {
+  background-color: #4B6E4A;
+}
+.footer_dfordiv {
+  bottom: 0;
+  position: absolute;
+}
+
+/* NOTE: headers: "main website" */
+/* NOTE: headers: "main website general" */
+.primary_nav_main-website {
+  font-size: 16pt;
+}
+#primary_nav-title_main-website {
+  font-family: jubilat, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24pt;
+}
+/* NOTE: headers (sub nav): "all" */
+#primary_sub-nav_all {
+  background: linear-gradient(245deg, #c7365c, #5b0bc9);
+  background-size: 400% 400%;
+  -webkit-animation: primary_sub-nav_all 29s ease infinite;
+  -moz-animation: primary_sub-nav_all 29s ease infinite;
+  -o-animation: primary_sub-nav_all 29s ease infinite;
+  animation: primary_sub-nav_all 29s ease infinite;
+  width: 100%;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12pt;
+  overflow: hidden;
+}
+#primary_sub-nav_all ul {
+  text-align: center;
+}
+#primary_sub-nav_all li {
+display: inline-block;
+padding-right: 2%;
+padding-left: 2%;
+}
+#primary_sub-nav_all a {
+  text-decoration: none;
+  color: #DBCACA;
+}
+#primary_sub-nav_all a:hover {
+color: #B99D82;
+transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+-webkit-transition-timing-function: ease-in-out;
+-o-transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+-webkit-transition-duration: 1s;
+-o-transition-duration: 1s;
+transition-duration: 1s;
+}
+#primary_sub-nav_all a:active {
+color: #B99D82;
+}
+
+/* NOTE: footers */
+
+/* NOTE: Footers: "all" */
+.footer_nav_all {
+  width: 100%;
+  text-align: center;
+  color: #DBCACA;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+}
+.footer_nav_all  li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footer_nav_all a {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footer_nav_all a:link {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footer_nav_all a:visited {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footer_nav_all a:hover {
+  color: #B99D82;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footer_nav_all a:active {
+  color: #F6E7D1;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+/* NOTE: headers: "all index" */
+#footer_nav_all-index {
+  background-color: #09182E;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+  bottom: 0;
+  position: absolute;
+}
+/* NOTE: headers: "general subpages" */
+#footer_nav_all-subpages {
+  background-color: #09182E;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+}
+
+/* NOTE: footers: "main website" */
+/* NOTE: footers: "main website general" */
+.footer_nav_main-website {
+  font-size: 12pt;
+}
+#footer_nav-title_main-website  {
+  font-family: jubilat, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* NOTE: main content */
+
+/* NOTE: main content: "main website all" */
+#body_main-website {
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+  background-size: 400% 400%;
+  -webkit-animation: body_main-website 58s ease infinite;
+  -moz-animation: body_main-website 58s ease infinite;
+  -o-animation: body_main-website 58s ease infinite;
+  animation: body_main-website 58s ease infinite;
+}
+#body_main-ascii {
+  background: linear-gradient(180deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+}
+#body_main-wireframes {
+  background: linear-gradient(180deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+}
+
+/* NOTE: main content: "main website general" */
+#body_main-website-work {
+  width: 100%;
+}
+#contentbillboard {
+  padding-top: 10%;
+  margin-bottom: 4%;
+}
+.contentbillboard-design-inspiration {
+  display:table;
+  width: 100%;
+  table-layout:fixed;
+  border-spacing:0 0;
+  background-color: #FCFCF9;
+  color: inherit;
+}
+#contentbillboard-design-inspiration-txt {
+  font-family: freight-text-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-justify: auto;
+  hyphens: auto;
+  text-align: justify;
+  font-size: 20pt;
+  padding-top: 4.5%;
+  padding-left: 13%;
+  padding-bottom: 2%;
+  padding-right: 13%;
+  margin-bottom: 1%;
+  column-count: 1;
+  color: #000000;
+}
+#mybackground-image-parallax-scroll-gradient {
+  background: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79)), url("../images/la-weho-cali-skyline.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+.contentbillboard-just-ascii-about {
+  width: 100%;
+  height: auto;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: source-code-pro, monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13pt;
+}
+.contentbillboard-wireframes {
+  width: 100%;
+  height: auto;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13pt;
+}
+#contentbillboard_jonhackner-title-h1 {
+  color: #DBCACA;
+  margin-top: 11%;
+  text-align: center;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 52.585pt;
+}
+#contentbillboard_h2 {
+  margin-top: 6%;
+  color: #DBCACA;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 35pt;
+}
+#contentbillboard_h3 {
+  margin-top: -6%;
+  color: #DBCACA;
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 32.5pt;
+}
+#contentbillboard_h4 {
+  margin-top: 2%
+  text-align: center;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16pt;
+}
+
+/* NOTE: main content: "main website work" */
+#contentbillboard-work {
+  width: 100%;
+}
+.web-design-work {
+  width: 100%;
+  height: 40vw;
+}
+#exercise-1 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/ascii-art.png");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#exercise-2 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7738)), url("../images/gettwourl_non-designed-visible.png");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#exercise-3 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/dfordiv.jpeg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-1 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/dfordiv.jpeg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-2 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7738)), url("../images/sitemap_pineandcrane-concept-rebrand_page-one.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-3 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/xiaochi_2x-style-tile_one.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-4 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/wireframes.png");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-5 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7738)), url("../images/redesign_design-comps-desktop.png");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#project-6 {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.8), rgba(224, 214, 198, 0.7), rgba(224, 214, 198, 0.6), rgba(224, 214, 198, 0.5)), url("../images/dfordiv.jpeg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#restaurant_project-overview {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7362), rgba(224, 214, 198, 0.6201), rgba(224, 214, 198, 0.5651), rgba(224, 214, 198, 0.4279), rgba(224, 214, 198, 0.3224)), url("../images/xiaochi_logo-hero-overview.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#restaurant_midterm-project {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7362), rgba(224, 214, 198, 0.6201), rgba(224, 214, 198, 0.5651), rgba(224, 214, 198, 0.4279), rgba(224, 214, 198, 0.3224)), url("../images/xiaochi_logo-hero-midterm.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#restaurant_final-project {
+  background-image: linear-gradient(rgba(224, 214, 198, 1), rgba(224, 214, 198, 0.7362), rgba(224, 214, 198, 0.6201), rgba(224, 214, 198, 0.5651), rgba(224, 214, 198, 0.4279), rgba(224, 214, 198, 0.3224)), url("../images/xiaochi_logo-hero-final.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+}
+#art-1 {
+  background-image: url("https://www.how-to-design.org/web-design/work-files/josef-albers-1968-variant-mm.jpg");
+  width: 50%;
+  height: 40vw;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  min-height: 100%;
+}
+#art-2 {
+  background-image: url("https://www.how-to-design.org/web-design/work-files/gene-davis-1969-popsicle.jpg");
+  width: 50%;
+  height: 40vw;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  min-height: 100%;
+}
+#art-3 {
+  background-image: url("https://www.how-to-design.org/web-design/work-files/matthew-deleget-2014-shuffle-for-le-corbusier.jpg");
+  width: 50%;
+  height: 40vw;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  min-height: 100%;
+}
+.art-back {
+  background: linear-gradient(rgba(224, 214, 198, 0.85), rgba(224, 214, 198, 0.15)), url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+}
+.type-work {
+  width: 100%;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: #DBCACA;
+  background: #B99D82;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.type-work:link {
+  color: #DBCACA;
+  background: #B99D82;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.type-work:visited {
+  color: #DBCACA;
+  background: #B99D82;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.type-work:hover {
+  color: #B99D82;
+  background: #09182E;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.type-work:active {
+  color: #B99D82;
+  background: #09182E;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.type-work-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55pt;
+}
+.type-work-subinfo {
+  width: 100%;
+  margin-top: 1.5%;
+  font-size: 21.5pt;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.type-work-subinfo-art {
+  width: 100%;
+  margin-top: 1.5%;
+  font-size: 55pt;
+  font-family: source-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+.type-work-addinfo-art {
+  width: 100%;
+  margin-top: 1.5%;
+  font-size: 21.5pt;
+  font-family: source-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+/*
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+    =============================
+    ======Personal Website=======
+    =============================
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    Designed by: Jonathan Hackner
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    ======For Web Design 2=======
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    :::::::::::::::::::::::::::::
+    This project is for::::::::::
+    Professor Ian Besler:::::::::
+    SMC Web Design 2 Class:::::::
+    Personal Work Website::::::::
+    Fall 2020 Semester:::::::::::
+    :::::::::::::::::::::::::::::
+    =============================
+    ======Personal Website=======
+    =============================
+  */

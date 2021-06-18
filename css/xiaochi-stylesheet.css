@@ -1,0 +1,1065 @@
+@charset "UTF-8";
+/* NOTE: Rotation animation referenced and source from: https://flaviocopes.com/rotate-image/ */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+(his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+https://mailchimp.com/email-design-guide/):
+https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+@-webkit-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+/* NOTE: Index Body Image */
+@-webkit-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: My Name Image  */
+@-webkit-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes myname-image {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: myname-image-reflect  */
+@-webkit-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes myname-image-reflect {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard-design-inspiration-txt-dropcap  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-dropcap {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: blockquotefooter  */
+@-webkit-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes blockquotefooter {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: indexbody-image-two  */
+@-webkit-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes indexbody-image-two {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard design inspiration txt header  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-header {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: contentbillboard design inspiration txt body  */
+@-webkit-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes contentbillboard-design-inspiration-txt-body {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+/* NOTE: item section large text txt body  */
+@-webkit-keyframes item-section-large-text {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-moz-keyframes item-section-large-text {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@-o-keyframes item-section-large-text {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+@keyframes item-section-large-text {
+    0%{background-position:0% 83%}
+    50%{background-position:100% 18%}
+    100%{background-position:0% 83%}
+}
+
+/* NOTE: CSS Reset in HTML and Universal Selector for box-sizing from: https://css-tricks.com/box-sizing/ */
+/* NOTE: CSS Reset in Universal Selector from: Web Design 2 Presentation Lecture 3 CSS Box Model divs semantic tags; Professor Ian Besler, SMC */
+
+/* NOTE: General CSS */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+::selection {
+  background: rgba(0, 102, 255, 0.5);
+}
+::-moz-selection {
+  background: rgba(0, 102, 255, 0.5);
+}
+  a {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:link {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:visited {
+    color: #000000;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:hover {
+    color: #B99D82;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  a:active {
+    color: #B99D82;
+    text-decoration: none;
+    transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  p {
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+  }
+
+  /* NOTE: Header */
+  /* NOTE: Main nav */
+  #primarynav_index {
+    background-color: #E8CDCD;
+    padding-bottom: 4%;
+    }
+  #primarynav_all-pages {
+    background-color: #31237E;
+    z-index: 1000;
+  }
+  .primarynav {
+    width: 100%;
+    text-align: center;
+    color: #E3EEE9;
+    font-size: 33.3333333333pt;
+    text-align: center;
+    font-family: halyard-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0.65%;
+    padding-right: 2%;
+    padding-bottom: 0.65%;
+    padding-left: 2%;
+    top: 0;
+  }
+  .primarynav  li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .primarynav a {
+    color: #E3EEE9;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:link {
+    color: #E3EEE9;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:visited {
+    color: #E3EEE9;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:hover {
+    color: #B17128;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav a:active {
+    color: #B17128;
+    list-style-type: none;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  #primary_nav_all-selected {
+    color: #B17128;
+  }
+  #primarynav_title-index-main {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_original-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  #primarynav_title-index {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_original-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  #primarynav_title-index:hover {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_invert-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  #primarynav_title-index:active {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_invert-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav_title {
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+  #primarynav_title-subpages {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_original-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  #primarynav_title-subpages:hover {
+    width: 192.48px;
+    height: 181.35px;
+    background-image: url("../svg/xiaochi_invert-logo.svg");
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: 0.23s;
+    -o-transition-duration: 0.23s;
+    transition-duration: 0.23s;
+  }
+  .primarynav_list-items {
+    font-family: halyard-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* NOTE: Content CSS */
+  /* NOTE: Index CSS */
+  /* NOTE: Gradient Animation Edited from source by Ian Forrest Gradient Animtor CSS Generator
+  (his design was inspired by Mailchimp's Email Design Guide Gradient at the top of the page:
+  https://mailchimp.com/email-design-guide/):
+  https://www.gradient-animator.com/, https://www.ianforrest.com/ */
+  #indexbody {
+    background: linear-gradient(180deg, #E8E8CD, #E8CDCD, #CF82E2);
+    background-size: 400% 400%;
+    -webkit-animation: indexbody 58s ease infinite;
+    -moz-animation: indexbody 58s ease infinite;
+    -o-animation: indexbody 58s ease infinite;
+    animation: indexbody 58s ease infinite;
+  }
+  #indexbody-pattern {
+    background: linear-gradient(rgba(199, 54, 92, 0.28), rgba(91, 11, 201, 0.29)), url("../images/green-tea-leaves.png") no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+
+  }
+#indexbody-subpages {
+  background: linear-gradient(245deg, #E8D5CC, #FFF4EA);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody 23s ease infinite;
+  -moz-animation: indexbody 23s ease infinite;
+  -o-animation: indexbody 23s ease infinite;
+  animation: indexbody 23s ease infinite;
+}
+.indexbody-image {
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  background-image: url("../images/la-weho-cali-skyline.jpeg");
+  width: 100%;
+  height: 10em;
+  background-size: cover;
+}
+.indexbody-image-two  {
+  background-image: url("../images/la-weho-cali-skyline.jpeg");
+    background-size: 400% 400%;
+    -webkit-animation: indexbody-image-two 58s ease infinite;
+    -moz-animation: indexbody-image-two 58s ease infinite;
+    -o-animation: indexbody-image-two 58s ease infinite;
+    animation: indexbody-image-two 58s ease infinite;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.myname-image {
+  background: linear-gradient(245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  width: 100%;
+  height: 1.7em;
+}
+.myname-image-reflect {
+  background: linear-gradient(-245deg, #09182E, #6633CC, #CC00CC, #914410, #914410, #E27329, #E59C28);
+  background-size: 400% 400%;
+  -webkit-animation: indexbody-image 58s ease infinite;
+  -moz-animation: indexbody-image 58s ease infinite;
+  -o-animation: indexbody-image 58s ease infinite;
+  animation: indexbody-image 58s ease infinite;
+  width: 100%;
+  height: 1.7em;
+}
+#mybackground-image-parallax-scroll-gradient {
+  background: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79)), url("../images/la-weho-cali-skyline.jpeg") no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+}
+#mybackground-paragraph {
+  margin: 0;
+  border-image-source: linear-gradient(rgba(199, 54, 92, 0.78), rgba(91, 11, 201, 0.79));
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 0.5em;
+  background-color: #FFD7E6;
+}
+#mybackground-paragraph p {
+  padding: 1%;
+  font-size: 18.5pt;
+}
+#mybackground-paragraph a {
+  color: inherit;
+}
+#mybackground-paragraph a:hover {
+  color: rgba(91, 11, 201, 0.79);
+}
+#mybackground-paragraph a:active {
+  color: #FCFCF9;
+}
+#mybackground-paragraph-footer {
+  background-image: linear-gradient(rgba(199, 54, 92, 0.09), rgba(91, 11, 201, 0.1));
+}
+#mybackground-paragraph-footer p {
+  font-size: 12pt;
+}
+#mybackground-paragraph-footer a {
+  font-weight: 300;
+}
+#mybackground-paragraph-footer a {
+  color: inherit;
+}
+#mybackground-paragraph-footer a:hover {
+  color: rgba(91, 11, 201, 0.79);
+}
+#mybackground-paragraph-footer a:active {
+  color: #FCFCF9;
+}
+
+/* NOTE: Footer CSS */
+.footernav {
+  color: #DBCACA;
+  bottom: 0;
+  width: 100%;
+  background-color: #31237E;
+  text-align: center;
+  font-size: 12pt;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0.65%;
+  padding-right: 2%;
+  padding-bottom: 0.65%;
+  padding-left: 2%;
+}
+#footernav_title {
+  font-family: jubilat, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.footernav  li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footernav a {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:link {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:visited {
+  color: #DBCACA;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:hover {
+  color: #B99D82;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.footernav a:active {
+  color: #F6E7D1;
+  list-style-type: none;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+
+/* NOTE: Section for Store */
+#product-store-list {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align: center;
+}
+.product-item {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.08s;
+  -o-transition-duration: 0.08s;
+  transition-duration: 0.08s;
+}
+.product-item::selection {
+  background: rgba(0, 255, 102, 0.3);
+}
+.product-item::-moz-selection {
+  background: rgba(0, 255, 102, 0.3);
+}
+.product-item:hover {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+  background-color: #B17128;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.08s;
+  -o-transition-duration: 0.08s;
+  transition-duration: 0.08s;
+}
+.product-item:active {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+  background-color: #E3EEE9;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.08s;
+  -o-transition-duration: 0.08s;
+  transition-duration: 0.08s;
+}
+
+#image-container {
+  width: 100%;
+  height: auto;
+}
+.product-item-large {
+  width: 60%;
+  height: auto;
+  float: left;
+  margin-top: -5%;
+  margin-bottom: -8.8%;
+  padding: 0 auto;
+  display: block;
+}
+.product-item-large::selection {
+  background: rgba(0, 255, 102, 0.3);
+}
+.product-item-large::-moz-selection {
+  background: rgba(0, 255, 102, 0.3);
+}
+
+.product-item-content {
+  margin-top: 5%;
+  font-size: 33.3333333333pt;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+}
+#section-information {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  font-size: 33.3333333333pt;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.product-button {
+  width: 100%;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 5em;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #B17128;
+  background: #E3EEE9;
+  border: none;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.product-button:link {
+  color: #B17128;
+  background: #E3EEE9;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.product-button:visited {
+  color: #B17128;
+  background: #E3EEE9;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.product-button:hover {
+  color: #E3EEE9;
+  background: #B17128;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.product-button:active {
+  color: #B17128;
+  background: #E8CDCD;
+  text-decoration: none;
+  transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-duration: 0.23s;
+  -o-transition-duration: 0.23s;
+  transition-duration: 0.23s;
+}
+.item-section-large-text {
+  color: #000000;
+  background: linear-gradient(180deg, #E8E8CD, #E8CDCD, #CF82E2);
+  background-size: 400% 400%;
+  -webkit-animation: item-section-large-text 58s ease infinite;
+  -moz-animation: item-section-large-text 58s ease infinite;
+  -o-animation: item-section-large-text 58s ease infinite;
+  animation: item-section-large-text 58s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 2%;
+  text-align: center;
+}
+.item-section-large-text-tc {
+  font-size: 17vw;
+  font-family: source-han-sans-cjk-tc, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.item-section-large-text-en {
+  font-size: 17vw;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.item-section-title {
+  font-size: 32px;
+  color: #324BD5;
+  margin-top: 2%;
+  text-align: center;
+}
+.item-section-title-tc {
+  font-family: source-han-sans-cjk-tc, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.item-section-title-en {
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.item-section-large-text-title {
+  font-size: 18vw;
+  color: #324BD5;
+  margin-top: 2%;
+  text-align: center;
+}
+.item-section-large-text-title-tc {
+  font-family: source-han-sans-cjk-tc, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.item-section-large-text-title-en {
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Code (grid) modified and referenced from source: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named, https://www.w3schools.com/css/css_grid.asp, https://codepen.io/diek/pen/NvmEdG */
+#gridmenu-en {
+  color: #070829;
+  font-family: halyard-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  display: grid;
+  grid-template-areas: 'header header header header' 'main main main main' 'footer footer footer footer';
+  margin-top: 5%;
+}
+.gridmenu_header-en {
+  grid-area: header;
+}
+.gridmenu-notes-en {
+}
+.gridmenu-items-en {
+}
+.gridmenu_main-en {
+  grid-area: main;
+  margin: 0 auto;
+}
+.gridmenu_main-wrapper-en {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.gridmenu-left-en {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+}
+.gridmenu-right-en {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+.gridmenu_footer-en {
+  grid-area: footer;
+}
+.list-items {
+  text-decoration: none;
+  list-style-type: none;
+}
+/*
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::||||||||||||||||||||||:::::::::================::::::::::::===========::::::::::::::
+::::||||||||||||||||||:::::::::::===============::::::::::::::==========::::::::::::::
+::::||||||||||||||||||:::::::::::=============:::::::::::::::::=========::::::::::::::
+::::||||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::|||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::||||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::|||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::||||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::|||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::||||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::|||||||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::||||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::|||||||||:::::::::::=======================================::::::::::::::
+::::::::::::::||||||||:::::::::::=======================================::::::::::::::
+:::::::::::::::|||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+::::::::::::::::||||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::|||||:::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::::::::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||::::::||::::::::::::======:::::::::::::::::::::::::::======::::::::::::::
+:::::::::||||||||||||:::[[[]]]:::=============:::::::::::::::::=========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::===============::::::::::::::==========:::[[[]]]:::::
+:::::::::||||||||||||:::[[[]]]:::================::::::::::::===========:::[[[]]]:::::
+
+    =============================
+    ======Personal Website=======
+    =============================
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    Designed by: Jonathan Hackner
+    [[[[[[[[[[[[[[[]]]]]]]]]]]]]]
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    ======For Web Design 2=======
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    {{{{{{{{{{{{{{{}}}}}}}}}}}}}}
+    :::::::::::::::::::::::::::::
+    This project is for::::::::::
+    Professor Ian Besler:::::::::
+    SMC Web Design 2 Class:::::::
+    Personal Work Website::::::::
+    Fall 2020 Semester:::::::::::
+    :::::::::::::::::::::::::::::
+    =============================
+    ======Personal Website=======
+    =============================
+  */
